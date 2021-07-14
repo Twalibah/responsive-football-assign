@@ -1,0 +1,51 @@
+/* ................
+     font styling
+.................... */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*....................
+     first section
+......................*/
+.container{
+    display: flex;
+    background-color: blueviolet;
+    height: 680px;
+    margin:0%;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 556px;
+    height: 438px;
+    margin-top: 153px;
+    margin-left: 102px;
+}
+.half-width img:hover{
+    border: 5px solid mediumvioletred;
+}
+
+h1{
+    width: 485px;
+    height: 230px;
+    margin-top: 207px;
+    margin-left: 156px;
+    padding-left: 0px;
+    font-size: 64px;
+    line-height: 80px;
+}
+h1:hover{
+    text-decoration-line: underline;
+}
+button{
+    width: 168px;
+    height: 44px;
+    background-color: rgba(224, 44, 109, 1);
+    margin-top: 27px;
+    margin-left: 156px;
+}
+button:hover{
+    border: 5px solid midnightblue;
+}
