@@ -12,16 +12,18 @@ body{
     display: flex;
     background-color: blueviolet;
     height: 680px;
-    margin:0%;
+    justify-content: center;
+    
 }
 .half-width{
     width: 50%;
 }
+
 .half-width img{
     width: 556px;
     height: 438px;
     margin-top: 153px;
-    margin-left: 102px;
+    /* margin-left: 102px; */
 }
 .half-width img:hover{
     border: 5px solid mediumvioletred;
@@ -30,9 +32,8 @@ body{
 h1{
     width: 485px;
     height: 230px;
-    margin-top: 207px;
-    margin-left: 156px;
-    padding-left: 0px;
+    padding-left: 156px;
+    padding-top: 207px;
     font-size: 64px;
     line-height: 80px;
 }
@@ -49,3 +50,89 @@ button{
 button:hover{
     border: 5px solid midnightblue;
 }
+.container-pl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.players-profile{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+
+}
+ .players{
+    width: 330px;
+    height: 474px;
+    border: 2px solid rgb(202, 200, 200) ;
+    padding-left: 15px;
+    display: flex;
+    align-content: center;
+} 
+.players img{
+    width:300px;
+    height: 50%;
+    padding-top: 15px;
+}
+
+h3{
+    font-size: 54px;
+    line-height: 80px;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 165px;
+} 
+.last-sec{
+    width: 100%;
+    display: flex;
+}
+.third-sec{
+    width: 50%;
+    padding-left:62px;
+}
+#text{
+    width: 485px;
+    height: 230px; 
+    margin-top: 50px;
+    margin-left: 156px;
+    margin-bottom: 27px;
+}
+.third-sec img{
+    height: 427px;
+    width: 567px;
+    left: 717px;
+    top: 2889px;
+    border-radius: 0px;
+
+}  
+#b2{
+    width: 168px;
+    height: 44px;
+    background-color: rgba(224, 44, 109, 1);
+    margin-top: 27px;
+    margin-left: 156px;
+}
+.container-foot{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 158px;
+}
+.sec-end{
+    display: flex;
+    flex-direction: column;
+
+}
+.foot-div{
+    padding-left: 280px;
+}
+#copy{
+    padding-left: 100px;
+}
+
+
