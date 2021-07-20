@@ -95,10 +95,13 @@ h5:hover .time{
  .players{
     width: 330px;
     height: 474px;
-    border: 2px solid rgb(202, 200, 200) ;
+    border: 2px solid rgb(102, 99, 99) ;
     padding-left: 15px;
     display: flex;
     align-content: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+
+    /* box-shadow: 5px 5px 5px 5px rgb(238, 237, 237); */
 } 
 .players img{
     width:300px;
@@ -130,7 +133,7 @@ h3{
     width: 485px;
     height: 230px; 
     margin-top: 50px;
-    margin-left: 156px;
+    margin-left: 106px;
     margin-bottom: 27px;
 }
 .third-sec img{
@@ -231,9 +234,6 @@ h3{
     .sched{
         width:786px;
     }
-    /* .container-1{
-        padding-left: 200px ;
-    } */
     .players-profile{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 300px;
