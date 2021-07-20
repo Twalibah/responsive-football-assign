@@ -50,6 +50,34 @@ button{
 button:hover{
     border: 5px solid midnightblue;
 }
+/* ............................
+............second section......
+................................ */
+.sched{
+    color: blueviolet;
+    background-color: black;
+    margin-top: 50px;
+    
+}
+.schedule{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border:5px solid rgb(88, 74, 56);
+}
+h5{
+    font-size: 20px;
+}
+h5:hover .time{
+    display:block;
+    background-color: burlywood;
+}
+.time{
+    display: none;
+}
+/* ...............................
+........third section.............
+.................................. */
 .container-pl{
     width: 100%;
     display: flex;
@@ -82,6 +110,9 @@ h3{
     font-size: 54px;
     line-height: 80px;
 }
+/* ...................................
+........fourth section..............
+.................................... */
 .container-1{
     display: flex;
     justify-content: center;
@@ -117,6 +148,58 @@ h3{
     margin-top: 27px;
     margin-left: 156px;
 }
+/* ..................................
+.......fifth section................
+...................................... */
+.container-rank{
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(45, 59, 45);
+    margin-top: 100px;
+}
+.rank{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    
+}
+
+.half-class{
+    width: 50%;
+    margin-top: 40px;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+
+.counrty{
+    display: flex;
+}
+.counrty img{
+    width: 50px;
+    height:50px;
+}
+.name{
+    margin-left: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: burlywood;
+}
+.name:hover {
+    transform: scale(1.2);
+}
+#left-wing:hover{
+    width: 100px;
+    height: 60px;
+    padding-left: 20px;
+    background-color:turquoise ;
+    transform: scale(2);
+    transition: transform 2s;
+}
 .container-foot{
     display: flex;
     justify-content: center;
@@ -126,13 +209,72 @@ h3{
 .sec-end{
     display: flex;
     flex-direction: column;
-
 }
+/* .....................................
+................footer section................
+......................................... */
 .foot-div{
-    padding-left: 280px;
+    padding-left: 230px;
 }
 #copy{
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
-
+/* ....................................................
+..........media query.................................. */
+@media only screen and (max-width: 786px){
+    .container{
+        width: 786px;
+        height: 1200px;
+        flex-direction: column;
+    }
+    .sched{
+        width:786px;
+    }
+    /* .container-1{
+        padding-left: 200px ;
+    } */
+    .players-profile{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 300px;
+    }
+    .players{
+        flex-direction: column;
+    }
+    .last-sec{
+        width: 786px;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .third-sec img{
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    .container-rank{
+        width: 786px;
+        background-color:rgb(45, 59, 45) ;
+    }
+    .rank{
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .half-class{
+        padding-left: 50px;
+    }
+    .container-foot{
+        width: 786px;
+    }
+    .foot-img img{
+        width: 600px;
+        left: 50px;
+        justify-content: center;
+    }
+    .foot-div{
+        padding-left: 120px;
+    }
+    #copy{
+        padding-left: 80px;
+    }
+    
+}
+    
